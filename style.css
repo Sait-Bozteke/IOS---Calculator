@@ -1,0 +1,117 @@
+body{
+background: rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+font-family: "Montserrat",sans-serif;
+
+
+
+}
+
+.container{
+width: 960px;
+height: 750px;
+margin: 20px auto;
+position: relative;
+
+
+}
+
+
+#calc{
+width: 35%;
+height: 530px;
+background: #000;
+margin-left: 30%;
+padding: 0 5px;
+position: absolute;
+top: 110px;
+border-radius: 50px;
+overflow: hidden;
+
+
+
+
+}
+
+button:nth-last-of-type(1),
+button:nth-last-of-type(2),
+button:nth-last-of-type(3){
+background: #a5a5a5;
+color: black;
+
+
+}
+
+
+button{
+width: 20%;
+height: 70px;
+color: #fbfbfb;
+margin-left: 3.5%;
+margin-bottom: 8px;
+border: 1px solid black;
+border-radius: 50%;
+font-size: 30px;
+font-weight: 200;
+outline: none;
+cursor: pointer;
+
+
+
+
+
+}
+
+#result{
+height: 80px;
+background: #000;
+margin-bottom: 10px;
+padding: 35px 15px 0;
+direction: rtl;
+
+
+
+
+}
+
+p{
+color: white;
+margin: 0;
+padding: 15px 0;
+font-family: Helvetica, sans-serif;
+font-size: 60px;
+font-weight: normal;
+/* text-align: center; */
+
+
+
+
+}
+#zero{
+width: 140px;
+padding-left: 30px;
+border-top-right-radius: 40px;
+border-top-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom-left-radius: 40px;
+text-align: left;
+
+
+
+}
+
+
+.operators{
+background: #fe9501;
+
+
+
+
+
+}
+.number{
+background: #333333;
+
+
+
+}
